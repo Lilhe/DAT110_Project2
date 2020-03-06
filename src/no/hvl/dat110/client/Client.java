@@ -50,7 +50,7 @@ public class Client extends Thread {
 		DisconnectMsg msg = new DisconnectMsg(user);
 
 		send(msg);
-
+		
 		connection.close();
 
 	}
